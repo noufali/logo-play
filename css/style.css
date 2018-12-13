@@ -1,0 +1,372 @@
+body,html{
+  margin:0;
+  padding:0;
+}
+
+#a0 {
+  animation: a-animation0 1s linear both;
+}
+
+#a1 {
+  animation: a-animation1 1s linear both;
+}
+
+#a2 {
+  animation: a-animation2 1s linear both;
+}
+
+#a3 {
+  animation: a-animation3 1s linear both;
+}
+
+#a4 {
+  animation: a-animation4 1s linear both;
+}
+
+#a5 {
+  animation: a-animation5 1s linear both;
+}
+
+#a6 {
+  animation: a-animation6 1s linear both;
+}
+
+#a7 {
+  animation: a-animation7 1s linear both;
+}
+
+#a8 {
+  animation: a-animation8 1s linear both;
+}
+
+#a9 {
+  animation: a-animation9 1s linear both;
+}
+
+#a10 {
+  animation: a-animation10 1s linear both;
+}
+
+#a11 {
+  animation: a-animation11 1s linear both;
+}
+
+#a12 {
+  animation: a-animation12 1s linear both;
+}
+
+#a13 {
+  animation: a-animation13 1s linear both;
+}
+
+#a14 {
+  animation: a-animation14 1s linear both;
+}
+
+#a15 {
+  animation: a-animation15 1s linear both;
+}
+
+#a16 {
+  animation: a-animation16 1s linear both;
+}
+
+#a17 {
+  animation: a-animation17 1s linear both;
+}
+
+#a18 {
+  animation: a-animation18 1s linear both;
+}
+
+#a19 {
+  animation: a-animation19 1s linear both;
+}
+
+#a20 {
+  animation: a-animation20 1s linear both;
+}
+
+#a21 {
+  animation: a-animation21 1s linear both;
+}
+
+#a22 {
+  animation: a-animation22 1s linear both;
+}
+
+#a23 {
+  animation: d-animation23 1s linear both;
+}
+
+#a24 {
+  animation: a-animation24 1s linear both;
+}
+
+#a25 {
+  animation: a-animation25 1s linear both;
+}
+
+#a26 {
+  animation: a-animation26 1s linear both;
+}
+
+#a27 {
+  animation: a-animation27 1s linear both;
+}
+
+#a28 {
+  animation: a-animation28 1s linear both;
+}
+
+#a29 {
+  animation: a-animation29 1s linear both;
+}
+
+#a30 {
+  animation: a-animation30 1s linear both;
+}
+
+#a31 {
+  animation: a-animation31 1s linear both;
+}
+
+#a32 {
+  animation: a-animation32 1s linear both;
+}
+
+#a33 {
+  animation: a-animation33 1s linear both;
+}
+
+#a34 {
+  animation: a-animation34 1s linear both;
+}
+
+#a35 {
+  animation: a-animation35 1s linear both;
+}
+
+#a36 {
+  animation: a-animation36 1s linear both;
+}
+
+#a37 {
+  animation: a-animation37 1s linear both;
+}
+
+#a38 {
+  animation: a-animation38 1s linear both;
+}
+
+#a39 {
+  animation: a-animation39 1s linear both;
+}
+
+#a40 {
+  animation: a-animation40 1s linear both;
+}
+
+#d0 {
+  animation: d-animation0 1s linear both;
+}
+
+#d1 {
+  animation: d-animation1 1s linear both;
+}
+
+#d2 {
+  animation: d-animation2 1s linear both;
+}
+
+#d3 {
+  animation: d-animation3 1s linear both;
+}
+
+#d4 {
+  animation: d-animation4 1s linear both;
+}
+
+#d5 {
+  animation: d-animation5 1s linear both;
+}
+
+#d6 {
+  animation: d-animation6 1s linear both;
+}
+
+#d7 {
+  animation: d-animation7 1s linear both;
+}
+
+#d8 {
+  animation: d-animation8 1s linear both;
+}
+
+#d9 {
+  animation: d-animation9 1s linear both;
+}
+
+#d10 {
+  animation: d-animation10 1s linear both;
+}
+
+#d11 {
+  animation: d-animation11 1s linear both;
+}
+
+#d12 {
+  animation: d-animation12 1s linear both;
+}
+
+#d13 {
+  animation: d-animation13 1s linear both;
+}
+
+#d14 {
+  animation: d-animation14 1s linear both;
+}
+
+#d15 {
+  animation: d-animation15 1s linear both;
+}
+
+#d16 {
+  animation: d-animation16 1s linear both;
+}
+
+#d17 {
+  animation: d-animation17 1s linear both;
+}
+
+#d18 {
+  animation: d-animation18 1s linear both;
+}
+
+#d19 {
+  animation: d-animation19 1s linear both;
+}
+
+#d20 {
+  animation: d-animation20 1s linear both;
+}
+
+#p0 {
+  animation: p-animation0 1s linear both;
+}
+
+#p1 {
+  animation: p-animation1 1s linear both;
+}
+
+#p2 {
+  animation: p-animation2 1s linear both;
+}
+
+#p3 {
+  animation: p-animation3 1s linear both;
+}
+
+#p4 {
+  animation: p-animation4 1s linear both;
+}
+
+#p5 {
+  animation: p-animation5 1s linear both;
+}
+
+#p6 {
+  animation: p-animation6 1s linear both;
+}
+
+#p7 {
+  animation: p-animation7 1s linear both;
+}
+
+#p8 {
+  animation: p-animation8 1s linear both;
+}
+
+#p9 {
+  animation: p-animation9 1s linear both;
+}
+
+#p10 {
+  animation: p-animation10 1s linear both;
+}
+
+#p11 {
+  animation: p-animation11 1s linear both;
+}
+
+#p12 {
+  animation: p-animation12 1s linear both;
+}
+
+#p13 {
+  animation: p-animation13 1s linear both;
+}
+
+#p14 {
+  animation: p-animation14 1s linear both;
+}
+
+#p15 {
+  animation: p-animation15 1s linear both;
+}
+
+#p16 {
+  animation: p-animation16 1s linear both;
+}
+
+#p17 {
+  animation: p-animation17 1s linear both;
+}
+
+#p18 {
+  animation: p-animation18 1s linear both;
+}
+
+#p19 {
+  animation: p-animation19 1s linear both;
+}
+
+#p20 {
+  animation: p-animation20 1s linear both;
+}
+
+#p21 {
+  animation: p-animation21 1s linear both;
+}
+
+#p22 {
+  animation: p-animation22 1s linear both;
+}
+
+#p23 {
+  animation: p-animation23 1s linear both;
+}
+
+#p24 {
+  animation: p-animation24 1s linear both;
+}
+
+#p25 {
+  animation: p-animation25 1s linear both;
+}
+
+#p26 {
+  animation: p-animation26 1s linear both;
+}
+
+#p27 {
+  animation: p-animation27 1s linear both;
+}
+
+#p28 {
+  animation: p-animation28 1s linear both;
+}
+
+#p29 {
+  animation: p-animation29 1s linear both;
+}

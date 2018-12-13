@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>logo animation</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script src="js/bounce.js"></script>
+</head>
+<body>
+  <img src="img/d.png" id="d0" style="position: absolute; width: 150px; top: 10px; left: 10px;">
+  <img src="img/d.png" id="d1" style="position: absolute; width: 150px; top: 10px; left: 160px;">
+  <img src="img/d.png" id="d2" style="position: absolute; width: 150px; top: 10px; left: 310px;">
+  <img src="img/d.png" id="d3" style="position: absolute; width: 150px; top: 10px; left: 460px;">
+  <img src="img/d.png" id="d4" style="position: absolute; width: 150px; top: 10px; left: 610px;">
+  <img src="img/d.png" id="d5" style="position: absolute; width: 150px; top: 10px; left: 760px;">
+  <img src="img/d.png" id="d6" style="position: absolute; width: 150px; top: 10px; left: 910px;">
+
+  <img src="img/p.png" id="p0" style="position: absolute; width: 134px; top: 10px; left: 1060px;">
+  <img src="img/p.png" id="p1" style="position: absolute; width: 134px; top: 10px; left: 1195px;">
+  <img src="img/p.png" id="p2" style="position: absolute; width: 134px; top: 10px; left: 1330px;">
+  <img src="img/p.png" id="p3" style="position: absolute; width: 134px; top: 10px; left: 1465px;">
+  <img src="img/p.png" id="p4" style="position: absolute; width: 134px; top: 10px; left: 1600px;">
+  <img src="img/p.png" id="p5" style="position: absolute; width: 134px; top: 10px; left: 1735px;">
+  <img src="img/p.png" id="p6" style="position: absolute; width: 134px; top: 10px; left: 1870px;">
+  <img src="img/p.png" id="p7" style="position: absolute; width: 134px; top: 10px; left: 2005px;">
+  <img src="img/p.png" id="p8" style="position: absolute; width: 134px; top: 10px; left: 2140px;">
+  <img src="img/p.png" id="p9" style="position: absolute; width: 134px; top: 10px; left: 2275px;">
+
+  <img src="img/a.png" id="a0" style="position: absolute; width: 190px; top: 230px; left: 5px;">
+  <img src="img/a.png" id="a1" style="position: absolute; width: 190px; top: 230px; left: 165px;">
+  <img src="img/a.png" id="a2" style="position: absolute; width: 190px; top: 230px; left: 325px;">
+  <img src="img/a.png" id="a3" style="position: absolute; width: 190px; top: 230px; left: 485px;">
+  <img src="img/a.png" id="a4" style="position: absolute; width: 190px; top: 230px; left: 645px;">
+  <img src="img/a.png" id="a5" style="position: absolute; width: 190px; top: 230px; left: 805px;">
+  <img src="img/a.png" id="a6" style="position: absolute; width: 190px; top: 230px; left: 965px;">
+  <img src="img/a.png" id="a7" style="position: absolute; width: 190px; top: 230px; left: 1125px;">
+  <img src="img/a.png" id="a8" style="position: absolute; width: 190px; top: 230px; left: 1285px;">
+  <img src="img/a.png" id="a9" style="position: absolute; width: 190px; top: 230px; left: 1445px;">
+  <img src="img/a.png" id="a10" style="position: absolute; width: 190px; top: 230px; left: 1605px;">
+  <img src="img/a.png" id="a11" style="position: absolute; width: 190px; top: 230px; left: 1765px;">
+  <img src="img/a.png" id="a12" style="position: absolute; width: 190px; top: 230px; left: 1925px;">
+  <img src="img/a.png" id="a13" style="position: absolute; width: 190px; top: 230px; left: 2085px;">
+
+  <img src="img/d.png" id="d7" style="position: absolute; width: 150px; top: 430px; left: 10px;">
+  <img src="img/d.png" id="d8" style="position: absolute; width: 150px; top: 430px; left: 160px;">
+  <img src="img/d.png" id="d9" style="position: absolute; width: 150px; top: 430px; left: 310px;">
+  <img src="img/d.png" id="d10" style="position: absolute; width: 150px; top: 430px; left: 460px;">
+  <img src="img/d.png" id="d11" style="position: absolute; width: 150px; top: 430px; left: 610px;">
+  <img src="img/d.png" id="d12" style="position: absolute; width: 150px; top: 430px; left: 760px;">
+  <img src="img/d.png" id="d13" style="position: absolute; width: 150px; top: 430px; left: 910px;">
+
+  <img src="img/p.png" id="p10" style="position: absolute; width: 134px; top: 430px; left: 1060px;">
+  <img src="img/p.png" id="p11" style="position: absolute; width: 134px; top: 430px; left: 1195px;">
+  <img src="img/p.png" id="p12" style="position: absolute; width: 134px; top: 430px; left: 1330px;">
+  <img src="img/p.png" id="p13" style="position: absolute; width: 134px; top: 430px; left: 1465px;">
+  <img src="img/p.png" id="p14" style="position: absolute; width: 134px; top: 430px; left: 1600px;">
+  <img src="img/p.png" id="p15" style="position: absolute; width: 134px; top: 430px; left: 1735px;">
+  <img src="img/p.png" id="p16" style="position: absolute; width: 134px; top: 430px; left: 1870px;">
+  <img src="img/p.png" id="p17" style="position: absolute; width: 134px; top: 430px; left: 2005px;">
+  <img src="img/p.png" id="p18" style="position: absolute; width: 134px; top: 430px; left: 2140px;">
+  <img src="img/p.png" id="p19" style="position: absolute; width: 134px; top: 430px; left: 2275px;">
+
+  <img src="img/a.png" id="a14" style="position: absolute; width: 190px; top: 640px; left: 5px;">
+  <img src="img/a.png" id="a15" style="position: absolute; width: 190px; top: 640px; left: 165px;">
+  <img src="img/a.png" id="a16" style="position: absolute; width: 190px; top: 640px; left: 325px;">
+  <img src="img/a.png" id="a17" style="position: absolute; width: 190px; top: 640px; left: 485px;">
+  <img src="img/a.png" id="a18" style="position: absolute; width: 190px; top: 640px; left: 645px;">
+  <img src="img/a.png" id="a19" style="position: absolute; width: 190px; top: 640px; left: 805px;">
+  <img src="img/a.png" id="a20" style="position: absolute; width: 190px; top: 640px; left: 965px;">
+  <img src="img/a.png" id="a21" style="position: absolute; width: 190px; top: 640px; left: 1125px;">
+  <img src="img/a.png" id="a22" style="position: absolute; width: 190px; top: 640px; left: 1285px;">
+  <img src="img/a.png" id="a23" style="position: absolute; width: 190px; top: 640px; left: 1445px;">
+  <img src="img/a.png" id="a24" style="position: absolute; width: 190px; top: 640px; left: 1605px;">
+  <img src="img/a.png" id="a25" style="position: absolute; width: 190px; top: 640px; left: 1765px;">
+  <img src="img/a.png" id="a26" style="position: absolute; width: 190px; top: 640px; left: 1925px;">
+  <img src="img/a.png" id="a27" style="position: absolute; width: 190px; top: 640px; left: 2085px;">
+
+  <img src="img/d.png" id="d14" style="position: absolute; width: 150px; top: 840px; left: 10px;">
+  <img src="img/d.png" id="d15" style="position: absolute; width: 150px; top: 840px; left: 160px;">
+  <img src="img/d.png" id="d16" style="position: absolute; width: 150px; top: 840px; left: 310px;">
+  <img src="img/d.png" id="d17" style="position: absolute; width: 150px; top: 840px; left: 460px;">
+  <img src="img/d.png" id="d18" style="position: absolute; width: 150px; top: 840px; left: 610px;">
+  <img src="img/d.png" id="d19" style="position: absolute; width: 150px; top: 840px; left: 760px;">
+  <img src="img/d.png" id="d20" style="position: absolute; width: 150px; top: 840px; left: 910px;">
+
+  <img src="img/p.png" id="p20" style="position: absolute; width: 134px; top: 840px; left: 1060px;">
+  <img src="img/p.png" id="p21" style="position: absolute; width: 134px; top: 840px; left: 1195px;">
+  <img src="img/p.png" id="p22" style="position: absolute; width: 134px; top: 840px; left: 1330px;">
+  <img src="img/p.png" id="p23" style="position: absolute; width: 134px; top: 840px; left: 1465px;">
+  <img src="img/p.png" id="p24" style="position: absolute; width: 134px; top: 840px; left: 1600px;">
+  <img src="img/p.png" id="p25" style="position: absolute; width: 134px; top: 840px; left: 1735px;">
+  <img src="img/p.png" id="p26" style="position: absolute; width: 134px; top: 840px; left: 1870px;">
+  <img src="img/p.png" id="p27" style="position: absolute; width: 134px; top: 840px; left: 2005px;">
+  <img src="img/p.png" id="p28" style="position: absolute; width: 134px; top: 840px; left: 2140px;">
+  <img src="img/p.png" id="p29" style="position: absolute; width: 134px; top: 840px; left: 2275px;">
+
+  <img src="img/a.png" id="a28" style="position: absolute; width: 190px; top: 1050px; left: 5px;">
+  <img src="img/a.png" id="a29" style="position: absolute; width: 190px; top: 1050px; left: 165px;">
+  <img src="img/a.png" id="a30" style="position: absolute; width: 190px; top: 1050px; left: 325px;">
+  <img src="img/a.png" id="a31" style="position: absolute; width: 190px; top: 1050px; left: 485px;">
+  <img src="img/a.png" id="a32" style="position: absolute; width: 190px; top: 1050px; left: 645px;">
+  <img src="img/a.png" id="a33" style="position: absolute; width: 190px; top: 1050px; left: 805px;">
+  <img src="img/a.png" id="a34" style="position: absolute; width: 190px; top: 1050px; left: 965px;">
+  <img src="img/a.png" id="a35" style="position: absolute; width: 190px; top: 1050px; left: 1125px;">
+  <img src="img/a.png" id="a36" style="position: absolute; width: 190px; top: 1050px; left: 1285px;">
+  <img src="img/a.png" id="a37" style="position: absolute; width: 190px; top: 1050px; left: 1445px;">
+  <img src="img/a.png" id="a38" style="position: absolute; width: 190px; top: 1050px; left: 1605px;">
+  <img src="img/a.png" id="a39" style="position: absolute; width: 190px; top: 1050px; left: 1765px;">
+  <img src="img/a.png" id="a40" style="position: absolute; width: 190px; top: 1050px; left: 1925px;">
+  <img src="img/a.png" id="a41" style="position: absolute; width: 190px; top: 1050px; left: 2085px;">
+
+</body>
+<script src="animation.js"></script>
+</html>
