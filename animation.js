@@ -2,41 +2,43 @@ var status = 0;
 
 setInterval(function(){
   if (status == 0){
-    console.log('here');
+    //console.log('here');
     status = 1;
   } else {
-    console.log('nope');
+    //console.log('nope');
     status = 0;
   }
   animate();
-}, 2800);
+}, 2000);
 
 animate();
 
 function animate() {
-  console.log(status);
+  //console.log(status);
   var x = 100;
 
   for (let i=0;i<21;i++){
     let bounce = new Bounce();
 
-    // bounce.translate({
-    //   from: { x: 1000, y: 10 },
-    //   to: { x: 0, y: 0},
-    //   duration: 9000-x
-    // });
+
     if (status == 0){
-      bounce.rotate({
-        from: 0,
-        to: 360,
-        duration: 7000
-      });
+      bounce.scale({
+        from: { x: 1, y: 1 },
+        to: { x: 0.3, y: 2 },
+        easing: "sway",
+        duration: 800,
+        delay: 65,
+        stiffness: 2
+      })
     } else {
-      bounce.rotate({
-        from: 360,
-        to: 0,
-        duration: 7000
-      });
+      bounce.scale({
+        from: { x: 0.3, y: 2 },
+        to: { x: 1, y: 1 },
+        easing: "sway",
+        duration: 800,
+        delay: 65,
+        stiffness: 2
+      })
     }
     let animation = "d-animation" + i;
     bounce.define(animation);
@@ -56,17 +58,23 @@ function animate() {
     // });
 
     if (status == 0){
-      bounce.rotate({
-        from: 0,
-        to: 360,
-        duration: 7000
-      });
+      bounce.scale({
+        from: { x: 1, y: 1 },
+        to: { x: 0.3, y: 2 },
+        easing: "sway",
+        duration: 800,
+        delay: 65,
+        stiffness: 2
+      })
     } else {
-      bounce.rotate({
-        from: 360,
-        to: 0,
-        duration: 7000
-      });
+      bounce.scale({
+        from: { x: 0.3, y: 2 },
+        to: { x: 1, y: 1 },
+        easing: "sway",
+        duration: 800,
+        delay: 65,
+        stiffness: 2
+      })
     }
 
     let animation = "p-animation" + j;
